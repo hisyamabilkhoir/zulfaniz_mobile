@@ -32,6 +32,7 @@ dependencies:
 
 
   # Product Specific
+  readmore: ^3.0.0
 
 
 # --------------------- END PACKAGES ----------------------#

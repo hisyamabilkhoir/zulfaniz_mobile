@@ -10,6 +10,8 @@ class THelperFunctions {
       return Colors.red;
     } else if (value == 'Blue') {
       return Colors.blue;
+    } else if (value == 'Purple') {
+      return Colors.purple;
     } else {
       return null;
     }
