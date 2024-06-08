@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:iconsax/iconsax.dart';
 import 'package:readmore/readmore.dart';
 import 'package:zulfaniz_store/common/widgets/texts/section_heading.dart';
+import 'package:zulfaniz_store/features/shop/screens/product_reviews/product_reviews.dart';
 import 'package:zulfaniz_store/utils/constants/sizes.dart';
 
 import 'widgets/buttom_add_to_cart_widget.dart';
@@ -77,7 +79,8 @@ class ProductDetailScreen extends StatelessWidget {
                       const TSectionHeading(
                           title: 'Review(199)', showActionButon: false),
                       IconButton(
-                        onPressed: () {},
+                        onPressed: () =>
+                            Get.to(() => const ProductReviewsScreen()),
                         icon: const Icon(
                           Iconsax.arrow_right_3,
                           size: 18,

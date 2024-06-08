@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:iconsax/iconsax.dart';
 import 'package:zulfaniz_store/common/widgets/appbar/appbar.dart';
 import 'package:zulfaniz_store/common/widgets/custom_shapes/containers/primary_header_container.dart';
 import 'package:zulfaniz_store/common/widgets/texts/section_heading.dart';
+import 'package:zulfaniz_store/features/personalization/screens/address/address.dart';
 import 'package:zulfaniz_store/utils/constants/colors.dart';
 import 'package:zulfaniz_store/utils/constants/sizes.dart';
 
@@ -54,7 +56,7 @@ class SettingsScreen extends StatelessWidget {
                     icon: Iconsax.safe_home,
                     title: 'My Address',
                     subTitle: 'Silahan untuk mengsisi terlebih dahulu',
-                    onTap: () {},
+                    onTap: () => Get.to(() => const UserAddressScreen()),
                   ),
                   TSettingsMenuTile(
                     icon: Iconsax.shopping_cart,
