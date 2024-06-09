@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:zulfaniz_store/common/widgets/appbar/appbar.dart';
+import 'package:zulfaniz_store/features/shop/screens/checkout/checkout.dart';
 import 'package:zulfaniz_store/utils/constants/sizes.dart';
 
 import 'widgets/cart_items.dart';
@@ -28,7 +30,7 @@ class CartScreen extends StatelessWidget {
       bottomNavigationBar: Padding(
         padding: const EdgeInsets.all(TSizes.defaultSpace),
         child: ElevatedButton(
-          onPressed: () {},
+          onPressed: () => Get.to(() => const CheckoutScreen()),
           child: const Text('Checkout \$2565.0'),
         ),
       ),

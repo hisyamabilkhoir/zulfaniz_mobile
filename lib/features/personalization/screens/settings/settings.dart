@@ -5,6 +5,8 @@ import 'package:zulfaniz_store/common/widgets/appbar/appbar.dart';
 import 'package:zulfaniz_store/common/widgets/custom_shapes/containers/primary_header_container.dart';
 import 'package:zulfaniz_store/common/widgets/texts/section_heading.dart';
 import 'package:zulfaniz_store/features/personalization/screens/address/address.dart';
+import 'package:zulfaniz_store/features/shop/screens/cart/cart.dart';
+import 'package:zulfaniz_store/features/shop/screens/order/order.dart';
 import 'package:zulfaniz_store/utils/constants/colors.dart';
 import 'package:zulfaniz_store/utils/constants/sizes.dart';
 
@@ -62,13 +64,13 @@ class SettingsScreen extends StatelessWidget {
                     icon: Iconsax.shopping_cart,
                     title: 'My Cart',
                     subTitle: 'Silahan untuk mengsisi terlebih dahulu',
-                    onTap: () {},
+                    onTap: () => Get.to(() => const CartScreen()),
                   ),
                   TSettingsMenuTile(
                     icon: Iconsax.bag_tick,
                     title: 'My Orders',
                     subTitle: 'Silahan untuk mengsisi terlebih dahulu',
-                    onTap: () {},
+                    onTap: () => Get.to(() => const OrderScreen()),
                   ),
                   TSettingsMenuTile(
                     icon: Iconsax.bank,
