@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:zulfaniz_store/common/widgets/products/product_cards/product_card_vertical.dart';
+import 'package:zulfaniz_store/features/shop/screens/all_products/all_products.dart';
 import 'package:zulfaniz_store/features/shop/screens/home/widgets/home_appbar.dart';
 import 'package:zulfaniz_store/features/shop/screens/home/widgets/home_categories.dart';
 import 'package:zulfaniz_store/features/shop/screens/home/widgets/promo_slider.dart';
@@ -71,7 +73,10 @@ class HomeScreen extends StatelessWidget {
                   const SizedBox(height: TSizes.spaceBtwSections),
 
                   // Heading
-                  TSectionHeading(title: 'Produk Populer', onPressed: () {}),
+                  TSectionHeading(
+                    title: 'Produk Populer',
+                    onPressed: () => Get.to(() => const AllProducts()),
+                  ),
                   const SizedBox(height: TSizes.spaceBtwItems),
 
                   // Product Populer

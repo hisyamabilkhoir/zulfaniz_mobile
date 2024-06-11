@@ -62,8 +62,8 @@ class TProductMetaData extends StatelessWidget {
         Row(
           children: [
             const TProductTitleText(title: 'Status'),
-            const SizedBox(width: TSizes.spaceBtwItems),
-            Text('In Stock', style: Theme.of(context).textTheme.titleMedium),
+            const SizedBox(width: 8),
+            Text('Tersedia', style: Theme.of(context).textTheme.titleMedium),
           ],
         ),
         const SizedBox(height: TSizes.spaceBtwItems / 1.5),
@@ -72,7 +72,7 @@ class TProductMetaData extends StatelessWidget {
         Row(
           children: [
             TCircularImage(
-              image: TImages.dress,
+              image: TImages.zulfanizLogo3,
               width: 32,
               height: 32,
               overlayColor: darkMode ? TColors.white : TColors.black,
@@ -82,7 +82,8 @@ class TProductMetaData extends StatelessWidget {
               brandTextSize: TextSizes.medium,
             ),
           ],
-        )
+        ),
+        const SizedBox(height: TSizes.spaceBtwItems / 1.5),
       ],
     );
   }

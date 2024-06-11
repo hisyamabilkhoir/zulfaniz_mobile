@@ -80,7 +80,7 @@ class CheckoutScreen extends StatelessWidget {
                 subTitle: 'Kami akan segera menyiapkan pesanan anda.',
                 onPressed: () => Get.offAll(() => const NavigationMenu()),
               )),
-          child: const Text('Checkout \$2565.0'),
+          child: const Text('Bayar Sekarang \$2565.0'),
         ),
       ),
     );

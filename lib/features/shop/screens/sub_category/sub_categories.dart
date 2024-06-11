@@ -53,7 +53,7 @@ class SubCategoriesScreen extends StatelessWidget {
                 ],
               ),
 
-              SizedBox(height: TSizes.spaceBtwSections),
+              const SizedBox(height: TSizes.spaceBtwSections),
 
               // Sub-Category
               Column(

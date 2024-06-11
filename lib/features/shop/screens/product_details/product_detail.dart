@@ -6,6 +6,7 @@ import 'package:zulfaniz_store/common/widgets/texts/section_heading.dart';
 import 'package:zulfaniz_store/features/shop/screens/product_reviews/product_reviews.dart';
 import 'package:zulfaniz_store/utils/constants/sizes.dart';
 
+import '../checkout/checkout.dart';
 import 'widgets/buttom_add_to_cart_widget.dart';
 import 'widgets/product_attributes.dart';
 import 'widgets/product_detail_image_silder.dart';
@@ -48,7 +49,8 @@ class ProductDetailScreen extends StatelessWidget {
                   SizedBox(
                     width: double.infinity,
                     child: ElevatedButton(
-                        onPressed: () {}, child: const Text('Checkout')),
+                        onPressed: () => Get.to(() => const CheckoutScreen()),
+                        child: const Text('Checkout')),
                   ),
                   const SizedBox(height: TSizes.spaceBtwSections),
 
@@ -62,8 +64,8 @@ class ProductDetailScreen extends StatelessWidget {
                     'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur impedit officia esse quam obcaecati aspernatur ex provident excepturi amet? Numquam sequi incidunt placeat rem. Laborum nemo deleniti minus vero a, quasi blanditiis quo ratione est corporis consectetur non quam consequatur repellat suscipit officiis totam? Minima cupiditate hic sapiente in, provident numquam perferendis dicta ipsam eum corrupti! Molestiae asperiores esse sint ipsa. Error, quod? Excepturi nemo ipsam maxime laborum quam nesciunt earum. Quod id repudiandae culpa! Impedit error quibusdam blanditiis neque temporibus! Numquam, dolor atque voluptatum debitis laborum reiciendis nostrum totam voluptas sed deleniti, ratione fugit soluta voluptate distinctio alias beatae doloremque sint. Ut dolore sapiente unde accusamus iure id incidunt ex natus commodi temporibus sed alias labore repudiandae perferendis, eos illum sequi quod, dignissimos nostrum numquam architecto laboriosam quo eveniet placeat. Eaque dicta asperiores fuga. Ut blanditiis vitae molestiae quia tempora dicta modi voluptas. Blanditiis ex provident, similique magni error sapiente molestias quod natus quo architecto et sint at porro suscipit iusto voluptates nobis quis? Doloribus nam culpa asperiores cum, eaque, veritatis alias magni fugit, molestias in dolor cupiditate soluta sequi ad provident itaque ut cumque officia! Maiores nulla, numquam sit quod recusandae tempora pariatur officia a animi, debitis dolores?',
                     trimLines: 2,
                     trimMode: TrimMode.Line,
-                    trimCollapsedText: ' Show more',
-                    trimExpandedText: ' Less',
+                    trimCollapsedText: ' Lihat Lebih Banyak',
+                    trimExpandedText: ' Lihat Lebih Sedikit',
                     moreStyle:
                         TextStyle(fontSize: 14, fontWeight: FontWeight.w800),
                     lessStyle:

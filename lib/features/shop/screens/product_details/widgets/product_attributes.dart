@@ -22,12 +22,13 @@ class TProductAttributes extends StatelessWidget {
           padding: const EdgeInsets.all(TSizes.md),
           backgroundColor: dark ? TColors.darkerGrey : TColors.grey,
           child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               // Title, Price & Stock Status
               Row(
                 children: [
                   const TSectionHeading(
-                      title: 'Variation', showActionButon: false),
+                      title: 'Detail Varian : ', showActionButon: false),
                   const SizedBox(width: TSizes.spaceBtwItems),
                   Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
@@ -35,10 +36,10 @@ class TProductAttributes extends StatelessWidget {
                       Row(
                         children: [
                           const TProductTitleText(
-                            title: 'Price : ',
+                            title: 'Harga : ',
                             smallSize: true,
                           ),
-                          const SizedBox(width: TSizes.spaceBtwItems),
+                          const SizedBox(width: 8),
 
                           // Actual Price
                           Text(
@@ -48,7 +49,7 @@ class TProductAttributes extends StatelessWidget {
                                 .titleSmall!
                                 .apply(decoration: TextDecoration.lineThrough),
                           ),
-                          const SizedBox(width: TSizes.spaceBtwItems),
+                          const SizedBox(width: 8),
 
                           // Sale Price
                           const TProductPriceText(price: '20'),
@@ -59,11 +60,11 @@ class TProductAttributes extends StatelessWidget {
                       Row(
                         children: [
                           const TProductTitleText(
-                            title: 'Stock : ',
+                            title: 'Stok : ',
                             smallSize: true,
                           ),
                           Text(
-                            'In Stock',
+                            '90',
                             style: Theme.of(context).textTheme.titleMedium,
                           ),
                         ],
@@ -72,6 +73,7 @@ class TProductAttributes extends StatelessWidget {
                   ),
                 ],
               ),
+              const SizedBox(height: 8),
 
               // Varian deskription
               const TProductTitleText(

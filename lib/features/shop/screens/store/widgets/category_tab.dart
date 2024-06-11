@@ -39,7 +39,7 @@ class TCategorytab extends StatelessWidget {
 
               // Products
               TSectionHeading(
-                title: 'Mungkin kamu juga menyukai',
+                title: 'Produk Serupa',
                 onPressed: () {},
               ),
               const SizedBox(height: TSizes.spaceBtwItems),

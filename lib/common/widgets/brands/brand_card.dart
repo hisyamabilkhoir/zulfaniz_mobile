@@ -34,7 +34,7 @@ class TBrandCard extends StatelessWidget {
             Flexible(
               child: TCircularImage(
                 isNetworkImage: false,
-                image: TImages.dress,
+                image: TImages.zulfanizLogo3,
                 backgroundColor: Colors.transparent,
                 overlayColor: isDark ? TColors.white : TColors.black,
               ),
@@ -48,7 +48,7 @@ class TBrandCard extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   const TBrandTitleWithVerifiedIcon(
-                    title: 'Nike',
+                    title: 'Zulfaniz',
                     brandTextSize: TextSizes.large,
                   ),
                   Text(

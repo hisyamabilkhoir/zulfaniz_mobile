@@ -30,7 +30,8 @@ class TProductImageSlider extends StatelessWidget {
                 padding: EdgeInsets.all(TSizes.productImageRadius * 2),
                 child: Center(
                   child: Image(
-                    image: AssetImage(TImages.productImage2),
+                    fit: BoxFit.cover,
+                    image: AssetImage(TImages.productImage9),
                   ),
                 ),
               ),
@@ -52,10 +53,11 @@ class TProductImageSlider extends StatelessWidget {
                     width: TSizes.spaceBtwItems,
                   ),
                   itemBuilder: (_, index) => TRoundedImage(
+                    fit: BoxFit.cover,
                     width: 80,
                     backgroundColor: dark ? TColors.dark : TColors.white,
-                    border: Border.all(color: TColors.primary),
-                    padding: const EdgeInsets.all(TSizes.sm),
+                    // border: Border.all(color: TColors.black),
+                    padding: const EdgeInsets.all(TSizes.xs),
                     imageUrl: TImages.productImage2,
                   ),
                 ),

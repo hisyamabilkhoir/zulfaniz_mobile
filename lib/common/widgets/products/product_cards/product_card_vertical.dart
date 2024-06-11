@@ -43,8 +43,10 @@ class TProductCardVertical extends StatelessWidget {
                 children: [
                   // Thumnail image
                   const TRoundedImage(
+                    width: double.infinity,
                     imageUrl: TImages.productImage2,
                     applyImageRadius: true,
+                    fit: BoxFit.cover,
                   ),
 
                   // sale tag

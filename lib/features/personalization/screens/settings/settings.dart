@@ -72,42 +72,42 @@ class SettingsScreen extends StatelessWidget {
                     subTitle: 'Silahan untuk mengsisi terlebih dahulu',
                     onTap: () => Get.to(() => const OrderScreen()),
                   ),
-                  TSettingsMenuTile(
-                    icon: Iconsax.bank,
-                    title: 'Back Account',
-                    subTitle: 'Silahan untuk mengsisi terlebih dahulu',
-                    onTap: () {},
-                  ),
-                  TSettingsMenuTile(
-                    icon: Iconsax.discount_shape,
-                    title: 'My Coupons',
-                    subTitle: 'Silahan untuk mengsisi terlebih dahulu',
-                    onTap: () {},
-                  ),
+                  // TSettingsMenuTile(
+                  //   icon: Iconsax.bank,
+                  //   title: 'Back Account',
+                  //   subTitle: 'Silahan untuk mengsisi terlebih dahulu',
+                  //   onTap: () {},
+                  // ),
+                  // TSettingsMenuTile(
+                  //   icon: Iconsax.discount_shape,
+                  //   title: 'My Coupons',
+                  //   subTitle: 'Silahan untuk mengsisi terlebih dahulu',
+                  //   onTap: () {},
+                  // ),
                   TSettingsMenuTile(
                     icon: Iconsax.notification,
                     title: 'Notifications',
                     subTitle: 'Silahan untuk mengsisi terlebih dahulu',
                     onTap: () {},
                   ),
-                  TSettingsMenuTile(
-                    icon: Iconsax.security_card,
-                    title: 'Account Privacy',
-                    subTitle: 'Silahan untuk mengsisi terlebih dahulu',
-                    onTap: () {},
-                  ),
+                  // TSettingsMenuTile(
+                  //   icon: Iconsax.security_card,
+                  //   title: 'Account Privacy',
+                  //   subTitle: 'Silahan untuk mengsisi terlebih dahulu',
+                  //   onTap: () {},
+                  // ),
 
                   // App Setting
                   const SizedBox(height: TSizes.spaceBtwSections),
                   const TSectionHeading(
                       title: 'App Setting', showActionButon: false),
                   const SizedBox(height: TSizes.spaceBtwItems),
-                  TSettingsMenuTile(
-                    icon: Iconsax.document_upload,
-                    title: 'Load Data',
-                    subTitle: 'Silahan untuk mengsisi terlebih dahulu',
-                    onTap: () {},
-                  ),
+                  // TSettingsMenuTile(
+                  //   icon: Iconsax.document_upload,
+                  //   title: 'Load Data',
+                  //   subTitle: 'Silahan untuk mengsisi terlebih dahulu',
+                  //   onTap: () {},
+                  // ),
                   TSettingsMenuTile(
                     icon: Iconsax.location,
                     title: 'Geolocation',

@@ -9,6 +9,9 @@ class TImages {
 
   // Katgeori
   static const String dress = "assets/logos/baju.png";
+  static const String zulfanizLogo1 = "assets/logos/zulfaniz-01.png";
+  static const String zulfanizLogo2 = "assets/logos/zulfaniz-02.png";
+  static const String zulfanizLogo3 = "assets/logos/zulfaniz-03.png";
 
   // OnBoarding Images
   static const String onBoardingImage1 =
