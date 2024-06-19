@@ -61,18 +61,21 @@ class SettingsScreen extends StatelessWidget {
                     subTitle: 'Silahan untuk mengsisi terlebih dahulu',
                     onTap: () => Get.to(() => const UserAddressScreen()),
                   ),
+
                   TSettingsMenuTile(
                     icon: Iconsax.shopping_cart,
                     title: 'My Cart',
                     subTitle: 'Silahan untuk mengsisi terlebih dahulu',
                     onTap: () => Get.to(() => const CartScreen()),
                   ),
+
                   TSettingsMenuTile(
                     icon: Iconsax.bag_tick,
                     title: 'My Orders',
                     subTitle: 'Silahan untuk mengsisi terlebih dahulu',
                     onTap: () => Get.to(() => const OrderScreen()),
                   ),
+
                   // TSettingsMenuTile(
                   //   icon: Iconsax.bank,
                   //   title: 'Back Account',
