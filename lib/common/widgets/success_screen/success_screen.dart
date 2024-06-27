@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:zulfaniz_store/common/styles/spacing_styles.dart';
+import 'package:zulfaniz_store/utils/constants/image_strings.dart';
 
 import '../../../utils/constants/sizes.dart';
 import '../../../utils/helpers/helper_functions.dart';
@@ -25,7 +26,7 @@ class SuccessScreen extends StatelessWidget {
             children: [
               // Image
               Image(
-                image: AssetImage(image),
+                image: const AssetImage(TImages.successImage),
                 width: THelperFunctions.screenWidth() * 0.6,
               ),
               const SizedBox(height: TSizes.spaceBtwSections),

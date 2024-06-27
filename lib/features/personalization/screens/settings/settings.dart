@@ -4,6 +4,7 @@ import 'package:iconsax/iconsax.dart';
 import 'package:zulfaniz_store/common/widgets/appbar/appbar.dart';
 import 'package:zulfaniz_store/common/widgets/custom_shapes/containers/primary_header_container.dart';
 import 'package:zulfaniz_store/common/widgets/texts/section_heading.dart';
+import 'package:zulfaniz_store/data/repositories/authentication.repository.dart';
 import 'package:zulfaniz_store/features/personalization/screens/address/address.dart';
 import 'package:zulfaniz_store/features/shop/screens/cart/cart.dart';
 import 'package:zulfaniz_store/features/shop/screens/order/order.dart';
@@ -125,6 +126,10 @@ class SettingsScreen extends StatelessWidget {
                     title: 'HD Image Quality',
                     subTitle: 'Silahan untuk mengsisi terlebih dahulu',
                     training: Switch(value: false, onChanged: (value) {}),
+                  ),
+                  OutlinedButton(
+                    onPressed: () => AuthenticationRepository.instance.logout(),
+                    child: const Text("Logout"),
                   ),
                 ],
               ),

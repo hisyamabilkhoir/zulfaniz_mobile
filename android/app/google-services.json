@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "550706101737",
+    "project_id": "zulfaniz-21137",
+    "storage_bucket": "zulfaniz-21137.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:550706101737:android:57555fe719303f7c94df78",
+        "android_client_info": {
+          "package_name": "com.example.zulfaniz_store"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "550706101737-e1m0920778c546ggplqvs672rro7qc0e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.zulfaniz_store",
+            "certificate_hash": "fda9f9dbcb3131ecd30ae85dc917a9a255c6ec73"
+          }
+        },
+        {
+          "client_id": "550706101737-em18tcp82bqh0ohkt19trd578etl67rp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVgggqEQ53kSk7bl8QpjdXoFFggb2rDvI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "550706101737-em18tcp82bqh0ohkt19trd578etl67rp.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "550706101737-814hlvis0irar1calo6h1dgaa3s6vm6g.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.zulfanizStore"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

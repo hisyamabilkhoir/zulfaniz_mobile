@@ -20,4 +20,10 @@ class TTexts {
   // Login
   static const String loginTitle = "Masuk";
   static const String loginSubTitle = "Silahkan Masuk Untuk Menjelajah";
+
+  // Register
+  static const String yourAccountCreatedTitle =
+      "Akun kamu sudah berhasil dibuat";
+  static const String yourAccountCreatedSubtitle =
+      "Silahkan untuk segera melakukan login";
 }
